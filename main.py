@@ -12,14 +12,6 @@ conn = sqlite3.connect('passwords_book.db')
 # Create cursor
 c = conn.cursor()
 
-# c.execute("INSERT INTO passwords VALUES (:site, :username, :password)",
-#                   {
-#                       'site': "SITE",
-#                       'username': "USERNAME",
-#                       'password': "PASSWORD"
-#
-#                   })
-
 #Create table
 #
 # c.execute("""CREATE TABLE passwords (
@@ -28,6 +20,13 @@ c = conn.cursor()
 # password text
 # )""")
 
+# c.execute("INSERT INTO passwords VALUES (:site, :username, :password)",
+#                   {
+#                       'site': "SITE",
+#                       'username': "USERNAME",
+#                       'password': "PASSWORD"
+#
+#                   })
 
 
 # Function to check entry password
