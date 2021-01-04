@@ -7,5 +7,5 @@ updating passwords, adding passwords and also deleting passwords. All of this ca
 
 
 
-The current password for entry has been set to "hello". It can be changed to a different one at line 35.
+The current password for entry has been set to "hello". It can be changed to a different one at line 34.
 Also when the program is run for the first time uncomment the lines 16 to 29 to create the table. After first run, comment it out.
